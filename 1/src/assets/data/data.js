@@ -1,0 +1,95 @@
+// Images
+import FoodImg1 from "../Images/food-1.png";
+import FoodImg2 from "../Images/food-2.png";
+import FoodImg3 from "../Images/food-3.png";
+import FoodImg4 from "../Images/food-4.png";
+import FoodImg5 from "../Images/food-5.png";
+import FoodImg6 from "../Images/food-6.png";
+import FoodImg7 from "../Images/food-7.png";
+import FoodImg8 from "../Images/food-8.png";
+
+// Dishes List
+const dishesList = [
+  {
+    id: 1,
+    img: FoodImg1,
+    cost: 2.29,
+    type: ["hot dishes", "cold dishes"],
+    title: "Spicy seasoned seafood noodles",
+    available: 20,
+  },
+  {
+    id: 2,
+    img: FoodImg2,
+    cost: 2.69,
+    type: ["hot dishes", "cold dishes", "desert"],
+    title: "Salted Pasta with mushroom sauce",
+    available: 11,
+  },
+  {
+    id: 3,
+    img: FoodImg3,
+    cost: 2.99,
+    type: ["hot dishes", "soup"],
+    title: "Beef dumpling in hot and sour soup",
+    available: 16,
+  },
+  {
+    id: 4,
+    img: FoodImg4,
+    cost: 2.59,
+    type: ["hot dishes"],
+    title: "Healthy noodle with spinach leaf",
+    available: 22,
+  },
+  {
+    id: 5,
+    img: FoodImg5,
+    cost: 3.59,
+    type: ["hot dishes"],
+    title: "Spicy instant noodle with special omelette",
+    available: 17,
+  },
+  {
+    id: 6,
+    img: FoodImg6,
+    cost: 3.29,
+    type: ["hot dishes", "cold dishes", "desert"],
+    title: "Healthy noodle with spinach leaf",
+    available: 22,
+  },
+  {
+    id: 7,
+    img: FoodImg4,
+    cost: 3.19,
+    type: ["hot dishes", "soup"],
+    title: "Hot spicy fried rice with omelet",
+    available: 13,
+  },
+  {
+    id: 8,
+    img: FoodImg7,
+    cost: 3.49,
+    type: ["hot dishes", "soup", "desert"],
+    title: "Hot spicy fried rice with omelet",
+    available: 13,
+  },
+  {
+    id: 9,
+    img: FoodImg8,
+    cost: 3.59,
+    type: ["hot dishes", "soup", "grill"],
+    title: "Spicy instant noodle with special omelette",
+    available: 17,
+  },
+  {
+    id: 10,
+    img: FoodImg3,
+    cost: 6.99,
+    type: ["hot dishes", "soup"],
+    title: "Beef dumpling in hot and sour soup",
+    available: 18,
+  },
+];
+
+export { dishesList };
